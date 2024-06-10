@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mensageiro" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/verde_primario</item>
+         <item name="font">@font/sora</item>
+    </style>
+
+    <style name="Theme.Mensageiro" parent="Base.Theme.Mensageiro" />
+</resources>

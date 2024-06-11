@@ -3,7 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="verde_primario">#009867</color>
-    <color name="verde_background">#E4FFF6</color>
+    <color name="verde_background">#CFFFEF</color>
     <color name="verde_primario_dark">#016343</color>
     <color name="cinza_secondary">#878686</color>
     <color name="vermelho_erro_popup">#FFB8B8</color>

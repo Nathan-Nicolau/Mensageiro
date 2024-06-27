@@ -1,15 +1,11 @@
-package com.nathannicolau.mensageiro
+package com.nathannicolau.mensageiro.activities
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.widget.Button
-import androidx.core.content.getSystemService
-import com.google.android.material.button.MaterialButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
-import com.nathannicolau.mensageiro.popups.PopupManager
+import com.nathannicolau.mensageiro.R
 
 class CadastroActivity : AppCompatActivity() {
 

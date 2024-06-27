@@ -1,7 +1,8 @@
-package com.nathannicolau.mensageiro
+package com.nathannicolau.mensageiro.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.nathannicolau.mensageiro.R
 
 class ContatosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

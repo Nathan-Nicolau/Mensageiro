@@ -1,9 +1,10 @@
-package com.nathannicolau.mensageiro
+package com.nathannicolau.mensageiro.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.material.button.MaterialButton
+import com.nathannicolau.mensageiro.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun iniciarCadastroAcitivity() {
-        val intent = Intent(this,CadastroActivity::class.java)
+        val intent = Intent(this, CadastroActivity::class.java)
         startActivity(intent)
     }
 }

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewContato"
+    style="@style/Widget.Material3.CardView.Elevated"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="2dp"
+    android:clickable="true"
     android:padding="12dp"
+    app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="12dp"
     app:cardElevation="4dp">
 
@@ -16,7 +20,7 @@
         android:padding="12dp">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imgViewFotoContato"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/shape_image_contato"
@@ -25,10 +29,10 @@
             app:circularflow_radiusInDP="12dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@null" />
+            app:srcCompat="@drawable/foto_de_perfil_helen" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/txtViewNomeContato"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
@@ -36,18 +40,18 @@
             android:text="Helen"
             android:textColor="@color/black"
             android:textSize="18sp"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/imgViewFotoContato"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/txtViewStatusConexaoContato"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/sora"
             android:text="@string/offline"
             android:textColor="@color/cinza_secondary"
-            app:layout_constraintStart_toStartOf="@+id/textView6"
-            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+            app:layout_constraintStart_toStartOf="@+id/txtViewNomeContato"
+            app:layout_constraintTop_toBottomOf="@+id/txtViewNomeContato" />
 
         <TextView
             android:id="@+id/textView14"
@@ -64,11 +68,12 @@
             android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:tint="#D50000"
-            app:layout_constraintBottom_toBottomOf="@+id/textView9"
-            app:layout_constraintStart_toEndOf="@+id/textView9"
-            app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:srcCompat="@drawable/ic_status_contato_white_16dp" />
+            app:layout_constraintBottom_toBottomOf="@+id/txtViewStatusConexaoContato"
+            app:layout_constraintStart_toEndOf="@+id/txtViewStatusConexaoContato"
+            app:layout_constraintTop_toBottomOf="@+id/txtViewNomeContato"
+            app:srcCompat="@drawable/ic_status_contato_white_16dp"
+            app:tint="#D50000" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.cardview.widget.CardView>
+
+</com.google.android.material.card.MaterialCardView>

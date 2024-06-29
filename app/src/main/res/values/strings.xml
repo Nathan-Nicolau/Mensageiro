@@ -27,6 +27,21 @@
     <string name="nao_exibir_status">Não exibir status de conexão aos contatos</string>
     <string name="exigir_login_autenticado">Ao iniciar o aplicativo, sempre será exigido a senha do aparelho</string>
     <string name="emitir_notificacoes_ao_receber_mensagens">Emitir uma notificação ao receber uma mensagem</string>
-    <string name="nao_confirmar_leitura_mensagem">Não confirma ao contato que enviou uma mensagem, que você a leu</string>
+    <string name="nao_confirmar_leitura_mensagem">Não confirma ao contato que te enviou uma mensagem, que você a leu</string>
     <string name="nao_exibir_status_conexao">Não exibe seu status atual aos contatos</string>
+
+    <!-- ContatoCard -->
+    <string name="clique_segure_opcoes">Clique e segure para mais opções</string>
+
+    <!-- Conexao contato -->
+    <string name="offline">Offline</string>
+    <string name="online">Online</string>
+    <string name="ocupado">Ocupado</string>
+
+    <!-- Status -->
+    <string name="status_padrao">Estou utilizando o mensageiro</string>
+
+    <!-- dialog_cadastro_concluido -->
+    <string name="cadastro_concluido_sucesso">Cadastro realizado com sucesso!</string>
+    <string name="continuar">Continuar</string>
 </resources>

@@ -31,11 +31,12 @@ class ContatosActivity : AppCompatActivity() {
         this.mButtonSettings.setOnClickListener {
             startActivity(Intent(this,ConfiguracoesActivity::class.java))
         }
+
     }
 
     private fun setAdaptersContato() {
         val lista = listOf(ContatoVO(1,"Helen","Online","vazia"))
-        val adapterContato = ContatoCard(lista)
+        val adapterContato = ContatoCard(lista,this)
         this.listaContatos.layoutManager = LinearLayoutManager(this)
         this.listaContatos.adapter = adapterContato
 

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Mensageiro"
         tools:targetApi="31">
         <activity
+            android:name=".activities.ConversaActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.ConfiguracoesActivity"
             android:exported="false" />
         <activity

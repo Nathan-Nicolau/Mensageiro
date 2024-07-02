@@ -25,6 +25,7 @@
             android:layout_height="50dp"
             android:background="@drawable/shape_image_contato"
             android:elevation="12dp"
+            android:padding="6dp"
             app:circularflow_defaultRadius="12dp"
             app:circularflow_radiusInDP="12dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -63,6 +64,15 @@
             android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView14"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_rawRes="@raw/animacao_chat"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
 
         <ImageView
             android:id="@+id/imageView5"
